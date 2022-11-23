@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6EA96E292E5B8900E75E5B /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6EA96D292E5B8900E75E5B /* Teams.swift */; };
+		DD94717D292CFBBD0018ADBE /* Channel Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD94717C292CFBBD0018ADBE /* Channel Views.swift */; };
+		DD95D5002923C23700C05F3F /* Microsoft_Teams_Screen_s_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D4FF2923C23700C05F3F /* Microsoft_Teams_Screen_s_App.swift */; };
+		DD95D5022923C23700C05F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D5012923C23700C05F3F /* ContentView.swift */; };
+		DD95D5042923C23800C05F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD95D5032923C23800C05F3F /* Assets.xcassets */; };
+		DD95D5072923C23800C05F3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD95D5062923C23800C05F3F /* Preview Assets.xcassets */; };
+		DD95D5112923C23800C05F3F /* Microsoft_Teams_Screen_s_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D5102923C23800C05F3F /* Microsoft_Teams_Screen_s_Tests.swift */; };
+		DD95D51B2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D51A2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITests.swift */; };
+		DD95D51D2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D51C2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITestsLaunchTests.swift */; };
+		DDA133A72926963000318DF1 /* all.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA133A62926963000318DF1 /* all.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD95D50D2923C23800C05F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD95D4F42923C23700C05F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD95D4FB2923C23700C05F3F;
+			remoteInfo = "Microsoft Teams Screen(s)";
+		};
+		DD95D5172923C23800C05F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD95D4F42923C23700C05F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD95D4FB2923C23700C05F3F;
+			remoteInfo = "Microsoft Teams Screen(s)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6EA96D292E5B8900E75E5B /* Teams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		DD94717C292CFBBD0018ADBE /* Channel Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel Views.swift"; sourceTree = "<group>"; };
+		DD95D4FC2923C23700C05F3F /* Microsoft Teams Screen(s).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Microsoft Teams Screen(s).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95D4FF2923C23700C05F3F /* Microsoft_Teams_Screen_s_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microsoft_Teams_Screen_s_App.swift; sourceTree = "<group>"; };
+		DD95D5012923C23700C05F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD95D5032923C23800C05F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD95D5062923C23800C05F3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD95D50C2923C23800C05F3F /* Microsoft Teams Screen(s)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microsoft Teams Screen(s)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95D5102923C23800C05F3F /* Microsoft_Teams_Screen_s_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microsoft_Teams_Screen_s_Tests.swift; sourceTree = "<group>"; };
+		DD95D5162923C23800C05F3F /* Microsoft Teams Screen(s)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Microsoft Teams Screen(s)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95D51A2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microsoft_Teams_Screen_s_UITests.swift; sourceTree = "<group>"; };
+		DD95D51C2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microsoft_Teams_Screen_s_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDA133A62926963000318DF1 /* all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = all.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD95D4F92923C23700C05F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D5092923C23800C05F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D5132923C23800C05F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD95D4F32923C23700C05F3F = {
+			isa = PBXGroup;
+			children = (
+				DD95D4FE2923C23700C05F3F /* Microsoft Teams Screen(s) */,
+				DD95D50F2923C23800C05F3F /* Microsoft Teams Screen(s)Tests */,
+				DD95D5192923C23800C05F3F /* Microsoft Teams Screen(s)UITests */,
+				DD95D4FD2923C23700C05F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD95D4FD2923C23700C05F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD95D4FC2923C23700C05F3F /* Microsoft Teams Screen(s).app */,
+				DD95D50C2923C23800C05F3F /* Microsoft Teams Screen(s)Tests.xctest */,
+				DD95D5162923C23800C05F3F /* Microsoft Teams Screen(s)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD95D4FE2923C23700C05F3F /* Microsoft Teams Screen(s) */ = {
+			isa = PBXGroup;
+			children = (
+				DD95D4FF2923C23700C05F3F /* Microsoft_Teams_Screen_s_App.swift */,
+				DD95D5012923C23700C05F3F /* ContentView.swift */,
+				DD6EA96D292E5B8900E75E5B /* Teams.swift */,
+				DD94717C292CFBBD0018ADBE /* Channel Views.swift */,
+				DDA133A62926963000318DF1 /* all.swift */,
+				DD95D5032923C23800C05F3F /* Assets.xcassets */,
+				DD95D5052923C23800C05F3F /* Preview Content */,
+			);
+			path = "Microsoft Teams Screen(s)";
+			sourceTree = "<group>";
+		};
+		DD95D5052923C23800C05F3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD95D5062923C23800C05F3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD95D50F2923C23800C05F3F /* Microsoft Teams Screen(s)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD95D5102923C23800C05F3F /* Microsoft_Teams_Screen_s_Tests.swift */,
+			);
+			path = "Microsoft Teams Screen(s)Tests";
+			sourceTree = "<group>";
+		};
+		DD95D5192923C23800C05F3F /* Microsoft Teams Screen(s)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD95D51A2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITests.swift */,
+				DD95D51C2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITestsLaunchTests.swift */,
+			);
+			path = "Microsoft Teams Screen(s)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD95D4FB2923C23700C05F3F /* Microsoft Teams Screen(s) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD95D5202923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)" */;
+			buildPhases = (
+				DD95D4F82923C23700C05F3F /* Sources */,
+				DD95D4F92923C23700C05F3F /* Frameworks */,
+				DD95D4FA2923C23700C05F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Microsoft Teams Screen(s)";
+			productName = "Microsoft Teams Screen(s)";
+			productReference = DD95D4FC2923C23700C05F3F /* Microsoft Teams Screen(s).app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD95D50B2923C23800C05F3F /* Microsoft Teams Screen(s)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD95D5232923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)Tests" */;
+			buildPhases = (
+				DD95D5082923C23800C05F3F /* Sources */,
+				DD95D5092923C23800C05F3F /* Frameworks */,
+				DD95D50A2923C23800C05F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD95D50E2923C23800C05F3F /* PBXTargetDependency */,
+			);
+			name = "Microsoft Teams Screen(s)Tests";
+			productName = "Microsoft Teams Screen(s)Tests";
+			productReference = DD95D50C2923C23800C05F3F /* Microsoft Teams Screen(s)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD95D5152923C23800C05F3F /* Microsoft Teams Screen(s)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD95D5262923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)UITests" */;
+			buildPhases = (
+				DD95D5122923C23800C05F3F /* Sources */,
+				DD95D5132923C23800C05F3F /* Frameworks */,
+				DD95D5142923C23800C05F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD95D5182923C23800C05F3F /* PBXTargetDependency */,
+			);
+			name = "Microsoft Teams Screen(s)UITests";
+			productName = "Microsoft Teams Screen(s)UITests";
+			productReference = DD95D5162923C23800C05F3F /* Microsoft Teams Screen(s)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD95D4F42923C23700C05F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DD95D4FB2923C23700C05F3F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DD95D50B2923C23800C05F3F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DD95D4FB2923C23700C05F3F;
+					};
+					DD95D5152923C23800C05F3F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DD95D4FB2923C23700C05F3F;
+					};
+				};
+			};
+			buildConfigurationList = DD95D4F72923C23700C05F3F /* Build configuration list for PBXProject "Microsoft Teams Screen(s)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD95D4F32923C23700C05F3F;
+			productRefGroup = DD95D4FD2923C23700C05F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD95D4FB2923C23700C05F3F /* Microsoft Teams Screen(s) */,
+				DD95D50B2923C23800C05F3F /* Microsoft Teams Screen(s)Tests */,
+				DD95D5152923C23800C05F3F /* Microsoft Teams Screen(s)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD95D4FA2923C23700C05F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95D5072923C23800C05F3F /* Preview Assets.xcassets in Resources */,
+				DD95D5042923C23800C05F3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D50A2923C23800C05F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D5142923C23800C05F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD95D4F82923C23700C05F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA133A72926963000318DF1 /* all.swift in Sources */,
+				DD6EA96E292E5B8900E75E5B /* Teams.swift in Sources */,
+				DD95D5022923C23700C05F3F /* ContentView.swift in Sources */,
+				DD95D5002923C23700C05F3F /* Microsoft_Teams_Screen_s_App.swift in Sources */,
+				DD94717D292CFBBD0018ADBE /* Channel Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D5082923C23800C05F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95D5112923C23800C05F3F /* Microsoft_Teams_Screen_s_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95D5122923C23800C05F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD95D51D2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITestsLaunchTests.swift in Sources */,
+				DD95D51B2923C23800C05F3F /* Microsoft_Teams_Screen_s_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD95D50E2923C23800C05F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD95D4FB2923C23700C05F3F /* Microsoft Teams Screen(s) */;
+			targetProxy = DD95D50D2923C23800C05F3F /* PBXContainerItemProxy */;
+		};
+		DD95D5182923C23800C05F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD95D4FB2923C23700C05F3F /* Microsoft Teams Screen(s) */;
+			targetProxy = DD95D5172923C23800C05F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD95D51E2923C23800C05F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD95D51F2923C23800C05F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD95D5212923C23800C05F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Microsoft Teams Screen(s)/Preview Content\"";
+				DEVELOPMENT_TEAM = TR7QYD9K6M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD95D5222923C23800C05F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Microsoft Teams Screen(s)/Preview Content\"";
+				DEVELOPMENT_TEAM = TR7QYD9K6M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD95D5242923C23800C05F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Microsoft Teams Screen(s).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Microsoft Teams Screen(s)";
+			};
+			name = Debug;
+		};
+		DD95D5252923C23800C05F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Microsoft Teams Screen(s).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Microsoft Teams Screen(s)";
+			};
+			name = Release;
+		};
+		DD95D5272923C23800C05F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Microsoft Teams Screen(s)";
+			};
+			name = Debug;
+		};
+		DD95D5282923C23800C05F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.idserve.net.Microsoft-Teams-Screen-s-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Microsoft Teams Screen(s)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD95D4F72923C23700C05F3F /* Build configuration list for PBXProject "Microsoft Teams Screen(s)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95D51E2923C23800C05F3F /* Debug */,
+				DD95D51F2923C23800C05F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD95D5202923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95D5212923C23800C05F3F /* Debug */,
+				DD95D5222923C23800C05F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD95D5232923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95D5242923C23800C05F3F /* Debug */,
+				DD95D5252923C23800C05F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD95D5262923C23800C05F3F /* Build configuration list for PBXNativeTarget "Microsoft Teams Screen(s)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD95D5272923C23800C05F3F /* Debug */,
+				DD95D5282923C23800C05F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD95D4F42923C23700C05F3F /* Project object */;
+}
